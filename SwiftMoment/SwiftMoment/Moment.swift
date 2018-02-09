@@ -109,7 +109,12 @@ public func moment(_ stringDate: String,
         "HH:mm:ss.SSSS",
         "HH:mm:ss",
         "HH:mm",
-        "HH"
+        "HH",
+        "d MMM yyyy",
+        "d MMM yy",
+        "d'-'MMM'-'yyyy",
+        "d'-'MMM'-'yy",
+        "dd/MM/yyyy"
     ]
 
     for format in formats {
